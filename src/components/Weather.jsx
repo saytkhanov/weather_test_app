@@ -1,7 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import { date, day, year, month } from "../constants/getDate";
 
-const Weather = ({ weather, value, setValue, handleSubmit }) => {
+const Weather = ({ weather, setSearch }) => {
+  const [value, setValue] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setSearch(value);
+  };
+
   return (
     <div className="col-md-4">
       <div className="card bg-dark text-white border-0">

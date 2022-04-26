@@ -6,7 +6,7 @@ const WeatherHeader = ({ handleType }) => {
     <>
       <div className={"buttonBack"}>
         <Link id="RouterNavLink" className={"styledLink"} to="/">
-          Главная
+          Home
         </Link>
       </div>
       <div className={"text-center mb-3"}>
@@ -20,14 +20,14 @@ const WeatherHeader = ({ handleType }) => {
             onClick={handleType("first_api")}
             className="btn btn-primary"
           >
-            Сервер 1
+            First Service
           </button>
           <button
             type="button"
             onClick={handleType("second_api")}
             className="btn btn-primary"
           >
-            Сервер 2
+            Second Service
           </button>
         </div>
       </div>

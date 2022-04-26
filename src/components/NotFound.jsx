@@ -5,9 +5,9 @@ const NotFound = () => {
   return (
     <div>
       <h1>
-        Что-то пошло не так. Вернуться на{" "}
+        Something is wrong. Back to{" "}
         <Link to="/">
-          главную
+          home
         </Link>
       </h1>
     </div>

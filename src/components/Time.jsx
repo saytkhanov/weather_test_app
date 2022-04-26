@@ -15,7 +15,7 @@ const Time = () => {
         <div className="row justify-content-center">
           <div className={"buttonBack"}>
             <Link className={"styledLink"} to="/">
-              Главная
+              Home
             </Link>
           </div>
           <div className="col-md-4">

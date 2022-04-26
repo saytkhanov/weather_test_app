@@ -1,5 +1,5 @@
 import * as types from "../constants/actionTypes";
-import { changeData } from "../constants/data";
+import { changeData } from "./data";
 
 export const weatherStart = () => ({
   type: types.WEATHER_START,
